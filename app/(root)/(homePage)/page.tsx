@@ -70,7 +70,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-4 p-6">
       <div className="flex flex-col-reverse items-center gap-4 xs:flex-row xs:justify-between">
-        <h1 className="h1-bold dark:text-white">All Questions</h1>
+        <h1 className="h1-bold dark:text-white">All Questions </h1>
         <Button className="btn" onClick={() => router.push("/ask-question")}>
           Ask a question
         </Button>
