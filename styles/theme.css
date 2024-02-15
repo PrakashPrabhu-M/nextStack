@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dynamic-bg {
+  @apply bg-light-850 dark:bg-dark-100;
+}
+
+.active-theme {
+  @apply brightness-100 contrast-100 invert-[53%] saturate-[3332%] dark:hue-rotate-180 sepia;
+}
+
+.no-focus {
+  @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
+}
